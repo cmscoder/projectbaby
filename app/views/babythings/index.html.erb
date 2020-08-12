@@ -1,0 +1,8 @@
+<div class="container mt-5" >
+  <h2 class='text-center'>Babies</h2>
+  <% @babythings.each do |babything| %>
+      <div class="d-flex">
+       <li><%= babything.name %></li>
+      </div>
+  <% end %>
+</div>

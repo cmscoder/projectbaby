@@ -1,0 +1,45 @@
+.navbar-lewagon {
+  justify-content: space-between;
+  background: white;
+  height: 100px;
+  font-family: Work Sans;
+  letter-spacing: 2px;
+  font-size: 17px;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+
+.navbar-lewagon .navbar-brand img {
+  width: 58px;
+}
+
+.navbar{
+  background-color: #0E0E0E;
+  a{
+     color: white !important;
+  }
+}
+
+.btn-primary:hover {
+  background:linear-gradient(135deg, darken(#DE412A, 2%) 0%, darken(#D76420, 5%) 100%);
+}
+
+.navbar img {
+  vertical-align: middle;
+  border-style: none;
+  height: 53px;
+}
+
+.dropdown-item {
+  background-color: rgba(0,0,0,0.85);
+}
+
+.dropdown-menu {
+  background-color: rgba(0,0,0,0.85);
+   a:hover {
+   background:linear-gradient(135deg, #DE412A 0%,#D76420 100%);
+  }
+}

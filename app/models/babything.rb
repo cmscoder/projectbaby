@@ -1,0 +1,2 @@
+class Babything < ApplicationRecord
+end
